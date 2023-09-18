@@ -4,7 +4,6 @@ function capitalizeStrings(inputArray) {
 
   for (let i=0; i<inputArray.length; i++) {
     let element = inputArray.at(i);
-    //resultArray.push(element.slice(1).toLowerCase());
     resultArray.push(element.at(0).toUpperCase().concat(element.slice(1).toLowerCase()));
   }
 
